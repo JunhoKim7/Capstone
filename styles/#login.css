@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('https://via.placeholder.com/1200x800');
-    background-image: no-repeat;
+    background: url('https://via.placeholder.com/1200x800') center / cover no-repeat;
     margin: 0;
     height: 100vh;
     display: flex;

@@ -10,9 +10,12 @@ body {
 }
 body{
     color: rgb(8, 8, 8);
-    background: url(../images/giphy.webp) center / cover;
     image-resolution: 96dpi;
+    background-image: no-repeat;
+    background: url(../images/giphy.webp) center / cover no-repeat;
+        image-resolution: 96dpi;
     }
+    
 
 main{
     width: 50vw;
@@ -51,7 +54,6 @@ footer{
         font-size: 50px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin: auto;
-        
         }
 
       
