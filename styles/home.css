@@ -29,7 +29,8 @@ h1{
 }
 
 footer{
-    bottom: 20rem;
+    bottom: 0;
+    position: fixed;
     color: whitesmoke;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.5);
@@ -40,6 +41,7 @@ footer{
     justify-content: center; 
     align-items: center;     
     object-fit: contain;
+
 }
     
 
