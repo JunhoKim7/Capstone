@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-container {
+    width: 90%; /* Container width */
+    max-width: 400px; /* Limit maximum width */
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect for the background */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .blur-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky background */
+}

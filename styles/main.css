@@ -7,6 +7,7 @@ img{
     height: 18rem;
     object-fit: contain;
 }
+
 .heart-button {
     font-size: 24px;
     color: gray;
@@ -22,3 +23,4 @@ img{
     transform: scale(1.2);
     transition: transform 0.3s, color 0.3s;
 }
+
