@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 body{
-    color: brown;
+    color: rgb(8, 8, 8);
     background: url(../images/giphy.webp) center / cover;
     image-resolution: 96dpi;
     }
@@ -18,8 +18,8 @@ main{
     width: 50vw;
     margin: 1rem auto;
     padding: 1rem;
-    color: orangered;
-    background-color:rgba(250, 235, 215, 0.66);
+    color: rgb(8, 8, 8);
+    background-color:rgba(250, 235, 215, 0.884);
     position:relative;
 
     
@@ -28,19 +28,7 @@ h1{
     font-size: 20px;
 }
 
-footer{
-    bottom: 20rem;
-    color: whitesmoke;
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.5);
-     text-align:center;
-    padding: 2rem;
-    margin:auto;
-    display: flex;           
-    justify-content: center; 
-    align-items: center;     
-    object-fit: contain;
-}
+
     
 
     .navbar-brand{
@@ -50,4 +38,4 @@ footer{
         
         }
 
-   
+      

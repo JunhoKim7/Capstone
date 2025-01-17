@@ -11,7 +11,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        
+        <link rel="stylesheet" href="./styles/cayla.css">
         <link rel="stylesheet" href="./styles/home.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -53,7 +53,7 @@
     
     <main>
         <h1>Welcome to the Live Free: Love Life Moto Bike Shop! Ready to Live Free? Zoom!!!</h1>
-
+<hr>
         <p>
             Immerse yourself into a whole new world full of freedom and fun you've never felt before. Unleash that inner kid as you zoom on two wheels headed into the horizon!
         </p>
@@ -66,16 +66,52 @@
             <li>Fun</li>
             <li>Freedom</li>
         </ul>
+        <hr>
+        <div id="btn">
+        <button><a href="./login.html">Login</a></button>
+        <button><a href="./register.html">Register</a></button>
+    </div>
     </main>
+    <br>
+    <section class="quote">
+        <h3>Quote from Bikers Near You</h3>
+        <hr>
+        <p id="quote-text">"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+        </p>
+        <button id="quoteBtn" onclick="newQuote() ">Get a New Quote</button>
+    </section>
 
     
-
-
-  <footer>
-  © 2024 Copyright
-  </footer>
+<br><br><br><br><br><br><br>
+<div id="foot">
+    <footer>
+        <div class="links">
+          <p> &copy; 2025 Live Free</p>
+          <ul>
+            <li><a href="aboutUs.html"><img src="./svg/about.svg" class="icon" alt="ablout"> About Us </a></li>
+            <li><a href="contact.html"><img src="./svg/contact.svg" class="icon" alt="contact"> Contact Us </a></li>
+            <li><a href="privacy.html"><img src="./svg/privacy.svg" class="icon" alt="lock"> Privacy </a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   
-  <h1>helloWorld</h1>
+    <script>
+        const quotes = [
+            "Life is a journey, enjoy the ride. – Anonymous",
+            "Four wheels move the body, but two wheels move the soul. – Unknown",
+            "You don’t stop riding when you get old; you get old when you stop riding. – Anonymous",
+            "Riding a bike is like an art—something you do because you feel something inside. – Valentino Rossi",
+            "Sometimes it takes a whole tank of fuel before you can think straight. – Anonymous",
+            "The road is eternal, the rider is ephemeral. – Harley-Davidson",
+            "Only a biker knows why a dog sticks its head out of a car window. – Unknown"
+        ];
+
+        function newQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote-text').textContent = quotes[randomIndex];
+        }
+    </script>
 
         
 </body>
