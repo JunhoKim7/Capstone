@@ -11,6 +11,7 @@ img{
     margin-top: 4rem;
     padding-bottom: 80px;
     padding-top: 50px;
+    position: fixed;
 }
 
 .container.fluid{
@@ -27,5 +28,121 @@ padding: .5rem;
 body{
 background-image: url(../images/flame.jpg);
 image-resolution: 96dpi;
+}
 
+body.blur-container {
+  font-family: Arial, sans-serif;
+  background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur-container {
+  width: 90%; /* Container width */
+  max-width: 400px; /* Limit maximum width */
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Blur effect for the background */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.blur-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky background */
+}
+
+.road {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #2E2E2E; /* Road color */
+}
+
+.motorcycle {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 120px;
+    animation: move-bike 4s linear infinite;
+}
+
+.bike-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.bike-frame {
+    width: 60px;
+    height: 20px;
+    background-color: #FF4500; /* Bike body color */
+    border-radius: 5px;
+    position: relative;
+}
+
+.wheel {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 3px solid #808080;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+.front-wheel {
+    position: relative;
+    margin-left: 5px;
+}
+
+.back-wheel {
+    position: relative;
+    margin-right: 5px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move-bike {
+    0% {
+        left: -150px;
+    }
+    100% {
+        left: 100vw;
+    }
 }
