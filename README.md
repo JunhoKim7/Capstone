@@ -1,7 +1,7 @@
 # Capstone
 # Live Free Bike Shop
 
-Welcome to my **Live Free: Love Life Bike Shop**! This capstone project was my first ever intro into coding and my first project for my Year Up program's Pluralsight Learn to Code Academy in Frontend Development. This project showcases a culmination of basic HTML, CSS, and Bootstrap skills learned through my instructor Kevin Long, collaboration with my cohort peers, and of course lots of Google to bring to life an example retail website that sells motorcycyles and related gear. I have integrated everything to my disposal within my current knowledge of coding to bring this project to life!
+Welcome to my **Live Free: Love Life Bike Shop**! This capstone project was my first ever intro into coding and my first project for my Year Up program's Pluralsight Learn to Code Academy in Frontend Development. This project showcases a culmination of basic HTML, CSS, and Bootstrap skills learned through my instructor Kevin Long, collaboration with my cohort peers, and of course lots of Google to bring to life an example retail website that sells motorcycles and related gear. I have integrated everything to my disposal within my current knowledge of coding to bring this project to life!
 
 ## 🛠️ Tools & Technologies
 
