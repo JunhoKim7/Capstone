@@ -29,6 +29,22 @@ h1{
 }
 
 
+footer{
+    bottom: 0;
+    position: fixed;
+    color: whitesmoke;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+     text-align:center;
+    padding: 2rem;
+    margin:auto;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    object-fit: contain;
+
+}
+
     
 
     .navbar-brand{
