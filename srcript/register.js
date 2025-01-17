@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
             output.innerText = "Username already taken.";
             return;
         }
-        window.location.href = "index.html";
+        window.location.href = "login.html";
     });
 });
