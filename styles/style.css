@@ -11,6 +11,7 @@ img{
     margin-top: 4rem;
     padding-bottom: 80px;
     padding-top: 50px;
+    position: fixed;
 }
 
 .container.fluid{
