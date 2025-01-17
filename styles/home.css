@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 body{
-    color: brown;
+    color: rgb(8, 8, 8);
     background: url(../images/giphy.webp) center / cover;
     image-resolution: 96dpi;
     }
@@ -18,8 +18,8 @@ main{
     width: 50vw;
     margin: 1rem auto;
     padding: 1rem;
-    color: orangered;
-    background-color:rgba(250, 235, 215, 0.66);
+    color: rgb(8, 8, 8);
+    background-color:rgba(250, 235, 215, 0.884);
     position:relative;
 
     
@@ -27,6 +27,7 @@ main{
 h1{
     font-size: 20px;
 }
+
 
 footer{
     bottom: 0;
@@ -43,6 +44,7 @@ footer{
     object-fit: contain;
 
 }
+
     
 
     .navbar-brand{
@@ -52,4 +54,4 @@ footer{
         
         }
 
-   
+      
