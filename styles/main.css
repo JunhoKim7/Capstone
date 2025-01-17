@@ -7,3 +7,18 @@ img{
     height: 18rem;
     object-fit: contain;
 }
+.heart-button {
+    font-size: 24px;
+    color: gray;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+}
+
+.heart-button.lit {
+    color: red;
+    transform: scale(1.2);
+    transition: transform 0.3s, color 0.3s;
+}
